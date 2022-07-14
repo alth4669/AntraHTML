@@ -1,0 +1,55 @@
+.centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+th.q1 {
+    width: 33%;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+tr.q1 {
+    font-family:sans-serif;
+    text-align:center;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+table.q2 {
+    font-family: sans-serif;
+}
+
+table.q2 thead {
+    font-size: 1.5em;
+}
+
+table.q2, table.q2 td, table.q2 th, table.q2 tfoot {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+table.q4 thead {
+    font-size: 2em;
+}
+
+table.q4 {
+    table-layout: fixed;
+    width: 40vw;
+    height: 50vh;
+}
+
+table.q5 {
+    table-layout: fixed;
+    width: 40vw;
+    height: 50vh;
+}
+
+button {
+    width: 100%;
+    min-height: 100% !important;
+    height: 100% !important;
+}
